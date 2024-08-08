@@ -1,0 +1,33 @@
+@media screen and  (max-width:576px) {
+    header{
+        padding: 0 10px;
+    }
+    .nav-content{
+        display: none;
+    }
+    .nav-bar{
+        gap: 50px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .banner-content{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .banner-img{
+        width: 100%;
+        height: 450px;
+}
+    
+    .banner-content h1{ 
+        font-size: 36px;
+        margin-bottom: 20px;
+}
+}
