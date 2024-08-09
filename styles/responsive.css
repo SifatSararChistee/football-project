@@ -39,4 +39,22 @@
     grid-template-columns: repeat(1,1fr);
 }
 
+.highlight{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.highlight-content{
+    width: 100%;
+}
+
+.highlight-content h1{
+    text-wrap:wrap;
+}
+
+.highlight-img{
+    width: 100%;
+}
+
 }
